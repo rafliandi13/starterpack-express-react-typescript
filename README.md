@@ -11,6 +11,50 @@ Monorepo starter pack dengan:
 - `backend`: API server Express
 - `frontend`: TailAdmin React app
 
+## Project Structure
+
+```text
+.
+|-- backend/
+|   |-- src/
+|   |   |-- config/
+|   |   |   `-- env.ts
+|   |   |-- controllers/
+|   |   |   `-- health.controller.ts
+|   |   |-- middleware/
+|   |   |   |-- error-handler.ts
+|   |   |   `-- not-found.ts
+|   |   |-- routes/
+|   |   |   |-- health.route.ts
+|   |   |   `-- index.ts
+|   |   |-- services/
+|   |   |   `-- health.service.ts
+|   |   |-- app.ts
+|   |   `-- server.ts
+|   |-- .env.example
+|   |-- package.json
+|   |-- tsconfig.json
+|   `-- tsconfig.build.json
+|-- frontend/
+|   |-- src/
+|   |   |-- components/
+|   |   |-- context/
+|   |   |-- hooks/
+|   |   |-- icons/
+|   |   |-- layout/
+|   |   |-- lib/
+|   |   |-- pages/
+|   |   |-- types/
+|   |   |-- App.tsx
+|   |   `-- main.tsx
+|   |-- public/
+|   |-- .env.example
+|   |-- package.json
+|   `-- vite.config.ts
+|-- package.json
+`-- README.md
+```
+
 ## Prasyarat
 
 - Node.js 20+
